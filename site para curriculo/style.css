@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #f8f8f8;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #353535;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+    
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background: #818181;
+    color: #000000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #ffffff;
+}
+
+/* Definir imagem como fundo e sobreposição */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92.8vh;
+    text-align: center;
+    position: relative;
+    background: url('https://hips.hearstapps.com/hmg-prod/images/lamborghini-revuelto-by-mansory-28-676ae05a9a59e.jpg') no-repeat center/cover;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6); /* Fundo semi-transparente para melhor legibilidade */
+    padding: 371px;
+    border-radius: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+
